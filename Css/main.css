@@ -15,7 +15,19 @@ body{
     width:100%;
     max-height: max-content;
     display:grid;
-    grid-template-columns: 3;
-    grid-template-rows: 2;
+    grid-template-columns: auto auto auto;
+    row-gap:80px;
+    column-gap: 80px;
+    justify-content: center;
+}
+
+.box-img{
+    width:300px;
+    height: 200px;
+}
+
+.img{
+    width:300px;
+    height:200px;
 }
 
