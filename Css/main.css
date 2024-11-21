@@ -10,3 +10,12 @@ body{
     justify-content: center;
     align-items: center;
 }
+
+.container{
+    width:100%;
+    max-height: max-content;
+    display:grid;
+    grid-template-columns: 3;
+    grid-template-rows: 2;
+}
+
